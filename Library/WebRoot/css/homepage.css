@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+body{background-color: #F1F1F1}
+.header,.main,.advicebook,.footer{width:70%; margin:0 auto;}
+.header{height:55px; }
+.left{width:50%;float:left;height:250px;}
+.right{width:50%;height:250px;float:right;background-image:url(image/1.jpg);}
+.show{text-align:center;font-family:Verdana, Geneva, sans-serif;color:red;}
+.context{text-align:center;}
+div.img img{display:inline;margin:3px;border:1px solid #bebebe;}
+div.img a:hover img{border:1px solid #333333;}
+div.desc{text-align:center;font-weight:normal;width:150px;font-size:12px;margin:10px 5px 10px 5px;}
+._good{width: 239px;height: 213px;border-radius: 3px;float: left;margin-left:70px;margin-top:10px;border: 1px solid white;}
+._title {background-color: #ff4400;}
+.footer{text-align:center;background-color:white;}
+.footer li{padding-top:5px; margin:0px;}
+.clearFloat{width: 0;height: 0;clear: both;}	

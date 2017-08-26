@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+.footer{text-align:center;background-color:white;}
+.footer li{padding-top:5px; margin:0px;}
+.clearFloat{width: 0;height: 0;clear: both;}	

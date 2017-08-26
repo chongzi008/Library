@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+body{background-color: #F1F1F1}
+.clearFloat{width: 0;height: 0;clear: both;}
+.header,.footer,.main{width:1000px; margin:0 auto;}
+.main{height:500px;}
+.clearFloat{width: 0;height: 0;clear: both;}	
+.footer{text-align:center;background-color:white;}
+.footer li{padding-top:5px; margin:0px;}
+
+.container {width: 1000px;margin:0 auto;margin-top: 0px;background-color: white;}
+			
+._cart{position: relative; width: 960px; margin: 0 auto; padding-top:20px ;padding-left: 0px; border:none solid #FF6600;}
+._cart h2,._order h2{text-align:center; font:22px/20px "黑体","Microsoft Yahei",arial,simhei;}
+._cart td,._order td{text-align:center;font: 14px/16px arial,楷体;}
+._order{position: relative; width: 960px; margin: 0 auto; padding-top:20px ;padding-left: 0px; border:none solid #FF6600;}
+._order_userinfo{position: relative; width: 540px; padding-top:20px;padding-left: 0px; padding-bottom:30px ; border:none solid #FF6600;margin: 0 auto;height:90px;line-height:30px; margin-bottom:200px;}
+._order_userinfo table{padding:10px;}

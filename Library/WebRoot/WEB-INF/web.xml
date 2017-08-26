@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Library</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.ManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AUcode</servlet-name>
+    <servlet-class>cn.lib.Login.web.servlet.AUcode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>cn.lib.Login.web.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.ReaderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.BorrowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FineServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.FineServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ManagerServlet</servlet-name>
+    <url-pattern>/ManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AUcode</servlet-name>
+    <url-pattern>/AUcode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderServlet</servlet-name>
+    <url-pattern>/ReaderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/BookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowServlet</servlet-name>
+    <url-pattern>/BorrowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FineServlet</servlet-name>
+    <url-pattern>/FineServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnnouncementServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.AnnouncementServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeServlet</servlet-name>
+    <servlet-class>cn.lib.manager.web.servlet.BookTypeServlet</servlet-class>
+  </servlet>
+
+    <filter>  
+        <filter-name>homeFilter</filter-name>  
+        <filter-class>cn.lib.filter.homeFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>homeFilter</filter-name>  
+        <url-pattern>/homepage.jsp</url-pattern>  
+    </filter-mapping>
+	
+	
+	   <filter>  
+        <filter-name>readFilter</filter-name>  
+        <filter-class>cn.lib.filter.readFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>readFilter</filter-name>  
+        <url-pattern>/readhistory.jsp</url-pattern>  
+    </filter-mapping>
+	
+	  <filter>  
+        <filter-name>ManagerFilter</filter-name>  
+        <filter-class>cn.lib.filter.ManagerFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>ManagerFilter</filter-name>  
+        <url-pattern>/backgroundPage/*</url-pattern>  
+    </filter-mapping>
+	 <servlet-mapping>
+    <servlet-name>AnnouncementServlet</servlet-name>
+    <url-pattern>/AnnouncementServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeServlet</servlet-name>
+    <url-pattern>/BookTypeServlet</url-pattern>
+  </servlet-mapping>
+	
+</web-app>

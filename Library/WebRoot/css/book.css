@@ -1,0 +1,27 @@
+body{background-color: #F1F1F1}
+.clearFloat{width: 0;height: 0;clear: both;}
+.header,.footer{width:70%; margin:0 auto;}
+.clearFloat{width: 0;height: 0;clear: both;}	
+.footer{text-align:center;background-color:white;}
+.footer li{padding-top:5px; margin:0px;}
+
+._detail{width: 1000px;height: 600px; background-color: white;margin: 0 auto;}
+._detail_good{width: 950px;height: 550px;margin: 0 auto;}
+._detail_good_img{width: 449px;height: 449px;border:1px solid gray;margin: 10px;float:left;border-radius: 5px;overflow: hidden;}
+._detail_good_img img{width: 100%;height: 100%;}
+._detail_good_text{width: 449px;height: 449px;border:1px solid gray;float:right;margin: 10px;border-radius: 5px;overflow: hidden;}
+._detail_good_name{width: 100%;height: 80px;line-height:40px;border-bottom: 1px solid gray;padding-left: 20px;font-weight: bold;}
+._detail_good_price{width: 100%;height: 50px;line-height:50px;border-bottom: 1px solid gray;padding-left: 20px;font-weight: bold;}
+._detail_good_price span{font-size: 22px;color: red;}
+._detail_good_description{width: 100%;height: 80px;line-height:40px;border-bottom: 1px solid gray;padding-left: 20px;font-weight: bold;overflow:hidden;}
+._detail_good_description span{font-size: 18px;font-weight: 500;}
+._detail_good_number{width: 100%;height: 60px;border-bottom: 1px solid gray;padding-left: 20px;font-weight: bold;}
+._detail_good_number_l{height: 36px;float: left;margin-top: 12px;}
+._detail_good_number_l input{height: 36px;border:2px solid gray;width: 50px;border-radius: 5px;}
+._detail_good_number_operation{float: left;border: 2px solid gray;width: 25px;height: 36px;margin-top: 12px;margin-left: 2px;border-radius: 5px;}
+._detail_good_number_operation_add{width: 100%;height: 18px;border-bottom: 1px solid gray;}
+._detail_good_number_operation_add:hover{cursor: pointer;}
+._detail_good_number_operation_subtract{width: 100%;height: 18px;}
+._detail_good_number_operation_subtract:hover{cursor: pointer;}
+._detail_good_inventory{height: 36px;float: left;margin-top: 12px;line-height:32px;margin-left:20px;}
+
