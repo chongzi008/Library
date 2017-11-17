@@ -38,6 +38,9 @@ public class test1 {
 		
 		Reader reader2 = new ReaderService().find(reader);
 		System.out.println("++++++"+reader2.getR_password());
+		
+		
+		System.out.println("这是我的修改++++++++++++++++++++++");
 
 	}
 
