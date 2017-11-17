@@ -1,2 +1,4 @@
 Library/WebRoot/WEB-INF/classes/
 Library/WebRoot/WEB-INF/classes/*.class
+Library/WebRoot/WEB-INF/classes/
+*.class
