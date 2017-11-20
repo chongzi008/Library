@@ -6,10 +6,11 @@ public class GitTest {
 		//年轻人  等级一
 		//年轻人  等级二
 		//年轻人  等级三
-<<<<<<< Updated upstream
+<<<<<<< HEAD
 		//bug修复拉
-=======
->>>>>>> Stashed changes
 		//年轻人 等级四
+=======
+		//bug 140
+>>>>>>> d053511fb301a72cf6e1f8cc156a379b4d9913b8
 	}
 }
